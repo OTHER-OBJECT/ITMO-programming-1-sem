@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a1, a2, bit, b;
+    scanf("%d", &a1);
+    scanf("%d", &a2);
+    b = ((a1 >= 11) && (a1 <= 12))? printf("true\n") : printf("false\n");
+    bit = (a2 >> 10) % 2;
+    printf("%d", bit);
+    return 0;
+}

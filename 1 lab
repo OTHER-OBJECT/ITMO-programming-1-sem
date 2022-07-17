@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float a;
+    char str[10] = "";
+    scanf("%f\n",&a);     //для вещественных
+    scanf("%[^\n]s", &str);    //строка
+    printf("%f\n",a);
+    printf("%s", str);
+ return 0;
+}
